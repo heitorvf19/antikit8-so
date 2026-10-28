@@ -1,0 +1,3 @@
+*.o
+/antikit8
+__pycache__/
