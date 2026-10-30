@@ -1,0 +1,102 @@
+[
+  {
+    "experimento": "sujo_eficiente",
+    "Acessos do trace": 42.0,
+    "Page Faults globais": 42.0,
+    "Temperatura maxima Swap": 37.0,
+    "Ciclos E/S": 1000.0,
+    "Page Outs": 1.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "sujo_baseline",
+    "Acessos do trace": 42.0,
+    "Page Faults globais": 42.0,
+    "Temperatura maxima Swap": 172.0,
+    "Ciclos E/S": 4793492000.0,
+    "Page Outs": 10.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "misto_eficiente",
+    "Acessos do trace": 42.0,
+    "Page Faults globais": 42.0,
+    "Temperatura maxima Swap": 25.0,
+    "Ciclos E/S": 0.0,
+    "Page Outs": 0.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "misto_baseline",
+    "Acessos do trace": 42.0,
+    "Page Faults globais": 42.0,
+    "Temperatura maxima Swap": 172.0,
+    "Ciclos E/S": 4793492000.0,
+    "Page Outs": 10.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "escritas_eficiente",
+    "Acessos do trace": 42.0,
+    "Page Faults globais": 42.0,
+    "Temperatura maxima Swap": 65.0,
+    "Ciclos E/S": 10000.0,
+    "Page Outs": 10.0,
+    "Espera termica": 160.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "escritas_baseline",
+    "Acessos do trace": 42.0,
+    "Page Faults globais": 42.0,
+    "Temperatura maxima Swap": 172.0,
+    "Ciclos E/S": 4793492000.0,
+    "Page Outs": 10.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "fragmentacao_par",
+    "Acessos do trace": 10.0,
+    "Page Faults globais": 1.0,
+    "Temperatura maxima Swap": 25.0,
+    "Ciclos E/S": 0.0,
+    "Page Outs": 0.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 1.171875
+  },
+  {
+    "experimento": "fragmentacao_impar",
+    "Acessos do trace": 10.0,
+    "Page Faults globais": 1.0,
+    "Temperatura maxima Swap": 25.0,
+    "Ciclos E/S": 0.0,
+    "Page Outs": 0.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 2.734375
+  },
+  {
+    "experimento": "limites",
+    "Acessos do trace": 3.0,
+    "Page Faults globais": 3.0,
+    "Temperatura maxima Swap": 25.0,
+    "Ciclos E/S": 0.0,
+    "Page Outs": 0.0,
+    "Espera termica": 0.0,
+    "Fragmentacao media / RAM": 0.0
+  },
+  {
+    "experimento": "fading",
+    "Acessos do trace": 300.0,
+    "Page Faults globais": 300.0,
+    "Temperatura maxima Swap": 65.0,
+    "Ciclos E/S": 61000.0,
+    "Page Outs": 61.0,
+    "Espera termica": 1384.0,
+    "Fragmentacao media / RAM": 0.0
+  }
+]

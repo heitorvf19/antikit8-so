@@ -1,0 +1,59 @@
+AUDIT n=1 motivo=CRIAR_TABELA map=514d44ef546399d8 estado=6f2e3bb932b17498 acumulado=01f7ef0ae08bd8e1 OK
+ACCESS n=1 chegada=0 execucao=0 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=2 motivo=APOS_MMU map=514d44ef546399d8 estado=6f2e3bb932b17498 acumulado=7cc7eeb4c9e6e38e OK
+PAGE_FAULT pid=1 vpn=1
+MAP pid=1 vpn=1 frame=0 quadros=2
+AUDIT n=3 motivo=MAPEAR map=bd5f565c4fb1903d estado=42e2f90cb8d9705d acumulado=7b0a2fc4a46899e6 OK
+AUDIT n=4 motivo=APOS_MMU map=bd5f565c4fb1903d estado=60371279bade575c acumulado=904841cded781459 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=2 chegada=1 execucao=1 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=5 motivo=APOS_MMU map=bd5f565c4fb1903d estado=548bd59d64c7223d acumulado=ea438d1dd7e5f697 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=3 chegada=2 execucao=2 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=6 motivo=APOS_MMU map=bd5f565c4fb1903d estado=2d7d7ecbffa57f1e acumulado=cb94e6b274f206ca OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=4 chegada=3 execucao=3 pid=1 va=4096 VPN=1 Offset=0 op=R
+FADING mmu=5 pid=1 vpn=154 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=7 motivo=APOS_MMU_COM_FADING map=bd5f565c4fb1903d estado=a289a76d18f5f9ff acumulado=9e739d3443203da6 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=5 chegada=4 execucao=4 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=8 motivo=APOS_MMU map=bd5f565c4fb1903d estado=e2e772fe8ce69ae0 acumulado=71257c69bc5a8bd5 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=6 chegada=5 execucao=5 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=9 motivo=APOS_MMU map=bd5f565c4fb1903d estado=fd1489b160dd3dc1 acumulado=9c7ad8b2b402fc07 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=7 chegada=6 execucao=6 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=10 motivo=APOS_MMU map=bd5f565c4fb1903d estado=3f159e5ded3acca2 acumulado=18ee21ee5bba7ed6 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=8 chegada=7 execucao=7 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=11 motivo=APOS_MMU map=bd5f565c4fb1903d estado=50d9a0ff5f1d2d83 acumulado=e049e4bd2e6c9636 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=9 chegada=8 execucao=8 pid=1 va=4096 VPN=1 Offset=0 op=R
+FADING mmu=10 pid=1 vpn=34 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=12 motivo=APOS_MMU_COM_FADING map=bd5f565c4fb1903d estado=7bc50e9a1b10f464 acumulado=7dd90b1c3fcd8001 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=10 chegada=9 execucao=9 pid=1 va=4096 VPN=1 Offset=0 op=R
+AUDIT n=13 motivo=APOS_MMU map=bd5f565c4fb1903d estado=01b2920fa0320945 acumulado=5ec9f774fe957447 OK
+PHYSICAL pid=1 vpn=1 pa=0
+RAM t=9; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UFFFFFFF........................]
+032768 [................................]
+065536 [................................]
+098304 [................................]
+131072 [................................]
+163840 [................................]
+196608 [................................]
+229376 [................................]
+FRAG uteis=1024 desperdicio=7168 alocados=8192 RAM=2.7344% alocada=87.5000% (U parcial arredondado somente no desenho)
+
+RESUMO politica=aging_limpa_primeiro_termico
+Acessos do trace: 10
+Chamadas MMU (inclui retries): 11
+Page Faults globais: 1
+PID 1: acessos=10 faults=1
+Temperatura maxima Swap: 25.0 C
+Ciclos E/S: 0
+Ciclos CPU totais: 11
+Page Outs: 0
+Espera termica: 0 ms
+Fragmentacao media / RAM: 2.734375%

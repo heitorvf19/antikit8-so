@@ -1,0 +1,4 @@
+# timestamp_ms pid endereco R|W [bytes_uteis_da_pagina]
+0 1 12287 R
+1 1 12288 R
+2 1 1048575 R

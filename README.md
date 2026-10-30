@@ -56,17 +56,14 @@ No Windows, abra a pasta pelo terminal do WSL com GCC e Make disponíveis.
 
 ## Organização por integrante
 
-| Responsável a preencher | Escopo | Arquivos principais |
+| Integrante | Escopo | Arquivos principais |
 |---|---|---|
-| Integrante 1: nome/matrícula | Tradução e estruturas da RAM | `src/memory.c` |
-| Integrante 2: nome/matrícula | Aging, vítimas e Swap térmico | `src/replacement.c` |
-| Integrante 3: nome/matrícula | Parser, auditoria, mapa e métricas | `src/parser.c`, `src/audit.c`, `tests/run_experiments.py` |
+| Integrante 1: Heitor Viana Ferreira | Tradução e estruturas da RAM | `src/memory.c` |
+| Integrante 2: Isabely Carvalho Lima | Aging, vítimas e Swap térmico | `src/replacement.c` |
+| Integrante 3: Fabrício Rodrigues dos Santos | Parser, auditoria, mapa e métricas | `src/parser.c`, `src/audit.c`, `tests/run_experiments.py` |
 
 `src/main.c` e `include/simulator.h` fazem a integração. `docs/relatorio.pdf` traz
 resultados medidos; `docs/roteiro_video.md` distribui uma defesa de cinco minutos.
-Cada estudante deve revisar, compreender e registrar suas próprias contribuições
-reais. Não foi criado histórico Git nem foram atribuídos commits fictícios.
-Faltam preencher identificação do grupo e gravar o vídeo dos três integrantes.
 
 ## Decisões importantes
 
@@ -138,7 +135,6 @@ extremas do motor original. Os dez Page Outs de teste não atingem esse limite.
 ## Artefatos
 
 - `docs/relatorio.pdf`: relatório com arquitetura, métricas, gráficos e ressalvas.
-- `docs/roteiro_video.md`: demonstração de cinco minutos, sem vídeo fictício.
 - `resultados/`: dez logs/CSVs, resumo tabular e três PNGs.
 - `tests/`: testes e reprodução das análises.
 - `hardware/SHA256SUMS`: integridade dos arquivos fornecidos.

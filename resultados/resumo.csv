@@ -1,0 +1,11 @@
+experimento,Acessos do trace,Page Faults globais,Temperatura maxima Swap,Ciclos E/S,Page Outs,Espera termica,Fragmentacao media / RAM
+sujo_eficiente,42.0,42.0,37.0,1000.0,1.0,0.0,0.0
+sujo_baseline,42.0,42.0,172.0,4793492000.0,10.0,0.0,0.0
+misto_eficiente,42.0,42.0,25.0,0.0,0.0,0.0,0.0
+misto_baseline,42.0,42.0,172.0,4793492000.0,10.0,0.0,0.0
+escritas_eficiente,42.0,42.0,65.0,10000.0,10.0,160.0,0.0
+escritas_baseline,42.0,42.0,172.0,4793492000.0,10.0,0.0,0.0
+fragmentacao_par,10.0,1.0,25.0,0.0,0.0,0.0,1.171875
+fragmentacao_impar,10.0,1.0,25.0,0.0,0.0,0.0,2.734375
+limites,3.0,3.0,25.0,0.0,0.0,0.0,0.0
+fading,300.0,300.0,65.0,61000.0,61.0,1384.0,0.0

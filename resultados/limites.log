@@ -1,0 +1,45 @@
+AUDIT n=1 motivo=CRIAR_TABELA map=514d44ef546399d8 estado=6f2e3bb932b17498 acumulado=01f7ef0ae08bd8e1 OK
+ACCESS n=1 chegada=0 execucao=0 pid=1 va=12287 VPN=1 Offset=8191 op=R
+AUDIT n=2 motivo=APOS_MMU map=514d44ef546399d8 estado=6f2e3bb932b17498 acumulado=7cc7eeb4c9e6e38e OK
+PAGE_FAULT pid=1 vpn=1
+MAP pid=1 vpn=1 frame=0 quadros=2
+AUDIT n=3 motivo=MAPEAR map=bd5f565c4fb1903d estado=42e2f90cb8d9705d acumulado=7b0a2fc4a46899e6 OK
+AUDIT n=4 motivo=APOS_MMU map=bd5f565c4fb1903d estado=60371279bade575c acumulado=904841cded781459 OK
+PHYSICAL pid=1 vpn=1 pa=8191
+ACCESS n=2 chegada=1 execucao=1 pid=1 va=12288 VPN=2 Offset=0 op=R
+AUDIT n=5 motivo=APOS_MMU map=bd5f565c4fb1903d estado=60371279bade575c acumulado=ea438d1dd7e5f697 OK
+PAGE_FAULT pid=1 vpn=2
+MAP pid=1 vpn=2 frame=2 quadros=1
+AUDIT n=6 motivo=MAPEAR map=7e8ffe3297f6b6e2 estado=3976d46b9924f993 acumulado=6bf6f5bfeb36e267 OK
+AUDIT n=7 motivo=APOS_MMU map=7e8ffe3297f6b6e2 estado=cb09f91a82402d73 acumulado=e461caa4fb434c66 OK
+PHYSICAL pid=1 vpn=2 pa=8192
+ACCESS n=3 chegada=2 execucao=2 pid=1 va=1048575 VPN=170 Offset=4095 op=R
+FADING mmu=5 pid=1 vpn=154 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=8 motivo=APOS_MMU_COM_FADING map=7e8ffe3297f6b6e2 estado=cb09f91a82402d73 acumulado=a8acebeac7d3ad0c OK
+PAGE_FAULT pid=1 vpn=170
+MAP pid=1 vpn=170 frame=3 quadros=1
+AUDIT n=9 motivo=MAPEAR map=e8716d50a0d135f4 estado=6f03639abd965f55 acumulado=08b6f5957af9981d OK
+AUDIT n=10 motivo=APOS_MMU map=e8716d50a0d135f4 estado=b9b5380b0f339fc6 acumulado=a9a1a72488179647 OK
+PHYSICAL pid=1 vpn=170 pa=16383
+RAM t=2; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UUUUUUUUUUUUUUUU................]
+032768 [................................]
+065536 [................................]
+098304 [................................]
+131072 [................................]
+163840 [................................]
+196608 [................................]
+229376 [................................]
+FRAG uteis=16384 desperdicio=0 alocados=16384 RAM=0.0000% alocada=0.0000% (U parcial arredondado somente no desenho)
+
+RESUMO politica=aging_limpa_primeiro_termico
+Acessos do trace: 3
+Chamadas MMU (inclui retries): 6
+Page Faults globais: 3
+PID 1: acessos=3 faults=3
+Temperatura maxima Swap: 25.0 C
+Ciclos E/S: 0
+Ciclos CPU totais: 6
+Page Outs: 0
+Espera termica: 0 ms
+Fragmentacao media / RAM: 0.000000%

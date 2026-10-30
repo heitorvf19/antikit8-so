@@ -1,0 +1,403 @@
+AUDIT n=1 motivo=CRIAR_TABELA map=514d44ef546399d8 estado=6f2e3bb932b17498 acumulado=01f7ef0ae08bd8e1 OK
+ACCESS n=1 chegada=0 execucao=0 pid=1 va=4096 VPN=1 Offset=0 op=W
+AUDIT n=2 motivo=APOS_MMU map=514d44ef546399d8 estado=6f2e3bb932b17498 acumulado=7cc7eeb4c9e6e38e OK
+PAGE_FAULT pid=1 vpn=1
+MAP pid=1 vpn=1 frame=0 quadros=2
+AUDIT n=3 motivo=MAPEAR map=bd5f565c4fb1903d estado=42e2f90cb8d9705d acumulado=7b0a2fc4a46899e6 OK
+AUDIT n=4 motivo=APOS_MMU map=bd5f565c4fb1903d estado=fa7617350ec10ecd acumulado=904841cded781459 OK
+PHYSICAL pid=1 vpn=1 pa=0
+ACCESS n=2 chegada=0 execucao=0 pid=1 va=16384 VPN=3 Offset=0 op=W
+AUDIT n=5 motivo=APOS_MMU map=bd5f565c4fb1903d estado=fa7617350ec10ecd acumulado=ea438d1dd7e5f697 OK
+PAGE_FAULT pid=1 vpn=3
+MAP pid=1 vpn=3 frame=2 quadros=2
+AUDIT n=6 motivo=MAPEAR map=865c490715991442 estado=76617e1570b8c252 acumulado=06385e1a573333ff OK
+AUDIT n=7 motivo=APOS_MMU map=865c490715991442 estado=1ba25c998cfdf9e2 acumulado=87e95027cec36e26 OK
+PHYSICAL pid=1 vpn=3 pa=8192
+ACCESS n=3 chegada=0 execucao=0 pid=1 va=28672 VPN=5 Offset=0 op=W
+FADING mmu=5 pid=1 vpn=154 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=8 motivo=APOS_MMU_COM_FADING map=865c490715991442 estado=1ba25c998cfdf9e2 acumulado=36ad97be19503adc OK
+PAGE_FAULT pid=1 vpn=5
+MAP pid=1 vpn=5 frame=4 quadros=2
+AUDIT n=9 motivo=MAPEAR map=f3eae8d18f5a66eb estado=70fba8f5a82c436b acumulado=e153a635b5575d31 OK
+AUDIT n=10 motivo=APOS_MMU map=f3eae8d18f5a66eb estado=1eae8985ee1e43db acumulado=784295bb9127ad9b OK
+PHYSICAL pid=1 vpn=5 pa=16384
+ACCESS n=4 chegada=0 execucao=0 pid=1 va=40960 VPN=7 Offset=0 op=W
+AUDIT n=11 motivo=APOS_MMU map=f3eae8d18f5a66eb estado=1eae8985ee1e43db acumulado=ea9367e32466f508 OK
+PAGE_FAULT pid=1 vpn=7
+MAP pid=1 vpn=7 frame=6 quadros=2
+AUDIT n=12 motivo=MAPEAR map=529cc857d9b54470 estado=7d3ae6f893172520 acumulado=da6f3d8742725fdb OK
+AUDIT n=13 motivo=APOS_MMU map=529cc857d9b54470 estado=ead10828b71ab8b0 acumulado=8e2a1c8297f5d1ad OK
+PHYSICAL pid=1 vpn=7 pa=24576
+ACCESS n=5 chegada=0 execucao=0 pid=1 va=53248 VPN=9 Offset=0 op=W
+AUDIT n=14 motivo=APOS_MMU map=529cc857d9b54470 estado=ead10828b71ab8b0 acumulado=d8895e01a9c6fc04 OK
+PAGE_FAULT pid=1 vpn=9
+MAP pid=1 vpn=9 frame=8 quadros=2
+AUDIT n=15 motivo=MAPEAR map=fbbe4adae74ddc4d estado=f6c88c46de17916d acumulado=984b93f5d207dc39 OK
+FADING mmu=10 pid=1 vpn=34 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=16 motivo=APOS_MMU_COM_FADING map=fbbe4adae74ddc4d estado=4b7fac6823fb75dd acumulado=0264e598a4812867 OK
+PHYSICAL pid=1 vpn=9 pa=32768
+ACCESS n=6 chegada=0 execucao=0 pid=1 va=65536 VPN=11 Offset=0 op=W
+AUDIT n=17 motivo=APOS_MMU map=fbbe4adae74ddc4d estado=126e9b0b13bb113c acumulado=a3bc4b66ae902d38 OK
+PAGE_FAULT pid=1 vpn=11
+MAP pid=1 vpn=11 frame=10 quadros=2
+AUDIT n=18 motivo=MAPEAR map=79d00a31954f39ca estado=4b4e355b04a608bb acumulado=a258c686df235453 OK
+AUDIT n=19 motivo=APOS_MMU map=79d00a31954f39ca estado=5afaef25dae2d32b acumulado=d0e2a3ab8fefa4ed OK
+PHYSICAL pid=1 vpn=11 pa=40960
+ACCESS n=7 chegada=0 execucao=0 pid=1 va=77824 VPN=13 Offset=0 op=W
+AUDIT n=20 motivo=APOS_MMU map=79d00a31954f39ca estado=5afaef25dae2d32b acumulado=10519f03399423d0 OK
+PAGE_FAULT pid=1 vpn=13
+MAP pid=1 vpn=13 frame=12 quadros=2
+AUDIT n=21 motivo=MAPEAR map=0f4d327cc32b68fb estado=5ee178ea5dad033a acumulado=ac4019a2b9da5316 OK
+AUDIT n=22 motivo=APOS_MMU map=0f4d327cc32b68fb estado=d12672a95c2cc0ca acumulado=3f63d7ab5b3a035b OK
+PHYSICAL pid=1 vpn=13 pa=49152
+ACCESS n=8 chegada=0 execucao=0 pid=1 va=90112 VPN=15 Offset=0 op=W
+FADING mmu=15 pid=1 vpn=117 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=23 motivo=APOS_MMU_COM_FADING map=0f4d327cc32b68fb estado=d12672a95c2cc0ca acumulado=afe41ec12a2d2843 OK
+PAGE_FAULT pid=1 vpn=15
+MAP pid=1 vpn=15 frame=14 quadros=2
+AUDIT n=24 motivo=MAPEAR map=0c5bfb2176e345f8 estado=30a181835fd05c49 acumulado=da58a9ff592b2c8e OK
+AUDIT n=25 motivo=APOS_MMU map=0c5bfb2176e345f8 estado=7987631d8f967cb9 acumulado=515bed39e95f738a OK
+PHYSICAL pid=1 vpn=15 pa=57344
+ACCESS n=9 chegada=0 execucao=0 pid=1 va=102400 VPN=17 Offset=0 op=W
+AUDIT n=26 motivo=APOS_MMU map=0c5bfb2176e345f8 estado=7987631d8f967cb9 acumulado=24baa018fb9db51d OK
+PAGE_FAULT pid=1 vpn=17
+MAP pid=1 vpn=17 frame=16 quadros=2
+AUDIT n=27 motivo=MAPEAR map=b3f7acaab339354d estado=616d2ebf44fc2a4c acumulado=a1f1f498ae3b3594 OK
+AUDIT n=28 motivo=APOS_MMU map=b3f7acaab339354d estado=27e45b5c728df3dc acumulado=c90c92159e4cadee OK
+PHYSICAL pid=1 vpn=17 pa=65536
+ACCESS n=10 chegada=0 execucao=0 pid=1 va=114688 VPN=19 Offset=0 op=W
+AUDIT n=29 motivo=APOS_MMU map=b3f7acaab339354d estado=27e45b5c728df3dc acumulado=a9a71b01e351c091 OK
+PAGE_FAULT pid=1 vpn=19
+MAP pid=1 vpn=19 frame=18 quadros=2
+AUDIT n=30 motivo=MAPEAR map=586e49737fcede62 estado=881c4af0e145c873 acumulado=fc500df61bf3d91e OK
+FADING mmu=20 pid=1 vpn=79 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=31 motivo=APOS_MMU_COM_FADING map=586e49737fcede62 estado=5db381b9df4480e3 acumulado=ff8a38f0f93d6428 OK
+PHYSICAL pid=1 vpn=19 pa=73728
+RAM t=0; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+032768 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+065536 [UUUUUUUUUUUUUUUU................]
+098304 [................................]
+131072 [................................]
+163840 [................................]
+196608 [................................]
+229376 [................................]
+FRAG uteis=81920 desperdicio=0 alocados=81920 RAM=0.0000% alocada=0.0000% (U parcial arredondado somente no desenho)
+ACCESS n=11 chegada=0 execucao=0 pid=1 va=126976 VPN=21 Offset=0 op=W
+AUDIT n=32 motivo=APOS_MMU map=586e49737fcede62 estado=c7a49a9881065542 acumulado=7ab41c7f8b490359 OK
+PAGE_FAULT pid=1 vpn=21
+MAP pid=1 vpn=21 frame=20 quadros=2
+AUDIT n=33 motivo=MAPEAR map=bc6b1e089f71be1b estado=51c5a65ea92b241b acumulado=4c8cfc91378ab9c0 OK
+AUDIT n=34 motivo=APOS_MMU map=bc6b1e089f71be1b estado=968a40bff4c7828b acumulado=c4f8caaf1660db02 OK
+PHYSICAL pid=1 vpn=21 pa=81920
+ACCESS n=12 chegada=0 execucao=0 pid=1 va=139264 VPN=23 Offset=0 op=W
+AUDIT n=35 motivo=APOS_MMU map=bc6b1e089f71be1b estado=968a40bff4c7828b acumulado=b6c87041b1ad2a95 OK
+PAGE_FAULT pid=1 vpn=23
+MAP pid=1 vpn=23 frame=22 quadros=2
+AUDIT n=36 motivo=MAPEAR map=a2525486b2912ab0 estado=cf82ac35f2fdf9c0 acumulado=23ed9f2997ca753a OK
+AUDIT n=37 motivo=APOS_MMU map=a2525486b2912ab0 estado=f2be80245f55b550 acumulado=df058cbeb260dbe8 OK
+PHYSICAL pid=1 vpn=23 pa=90112
+ACCESS n=13 chegada=0 execucao=0 pid=1 va=151552 VPN=25 Offset=0 op=W
+FADING mmu=25 pid=1 vpn=86 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=38 motivo=APOS_MMU_COM_FADING map=a2525486b2912ab0 estado=f2be80245f55b550 acumulado=479eb7a1c416e4b1 OK
+PAGE_FAULT pid=1 vpn=25
+MAP pid=1 vpn=25 frame=24 quadros=2
+AUDIT n=39 motivo=MAPEAR map=f54a7fc49458b59d estado=2bd5a41d530afcfd acumulado=e50b84104dcac5e8 OK
+AUDIT n=40 motivo=APOS_MMU map=f54a7fc49458b59d estado=fccc8543cebd4f6d acumulado=67231772712cb2fe OK
+PHYSICAL pid=1 vpn=25 pa=98304
+ACCESS n=14 chegada=0 execucao=0 pid=1 va=163840 VPN=27 Offset=0 op=W
+AUDIT n=41 motivo=APOS_MMU map=f54a7fc49458b59d estado=fccc8543cebd4f6d acumulado=7a646c8d02f47afd OK
+PAGE_FAULT pid=1 vpn=27
+MAP pid=1 vpn=27 frame=26 quadros=2
+AUDIT n=42 motivo=MAPEAR map=1f5d8f3ae2b6b80a estado=8545c3283dbb6cfa acumulado=081af68e4d807cee OK
+AUDIT n=43 motivo=APOS_MMU map=1f5d8f3ae2b6b80a estado=3fd8e30b25c5da8a acumulado=784fdeb199ea87b0 OK
+PHYSICAL pid=1 vpn=27 pa=106496
+ACCESS n=15 chegada=0 execucao=0 pid=1 va=176128 VPN=29 Offset=0 op=W
+AUDIT n=44 motivo=APOS_MMU map=1f5d8f3ae2b6b80a estado=3fd8e30b25c5da8a acumulado=044bb19dd62cf751 OK
+PAGE_FAULT pid=1 vpn=29
+MAP pid=1 vpn=29 frame=28 quadros=2
+AUDIT n=45 motivo=MAPEAR map=1725a03a81f4aa2b estado=b0f1646b0aa7234b acumulado=0dd59b53971baef4 OK
+FADING mmu=30 pid=1 vpn=160 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=46 motivo=APOS_MMU_COM_FADING map=1725a03a81f4aa2b estado=951d30b433b81dbb acumulado=df75e056163bfa8a OK
+PHYSICAL pid=1 vpn=29 pa=114688
+ACCESS n=16 chegada=0 execucao=0 pid=1 va=188416 VPN=31 Offset=0 op=W
+AUDIT n=47 motivo=APOS_MMU map=1725a03a81f4aa2b estado=c25dbf6e568fc33a acumulado=f0a5240733774bfd OK
+PAGE_FAULT pid=1 vpn=31
+MAP pid=1 vpn=31 frame=30 quadros=2
+AUDIT n=48 motivo=MAPEAR map=7519110770ffb218 estado=fa5d7e0d9897c3e9 acumulado=70fd679bf7189396 OK
+AUDIT n=49 motivo=APOS_MMU map=7519110770ffb218 estado=76661ede6ded0259 acumulado=25212215d6d85d18 OK
+PHYSICAL pid=1 vpn=31 pa=122880
+ACCESS n=17 chegada=0 execucao=0 pid=1 va=200704 VPN=33 Offset=0 op=W
+AUDIT n=50 motivo=APOS_MMU map=7519110770ffb218 estado=76661ede6ded0259 acumulado=644fdde6a330b1ed OK
+PAGE_FAULT pid=1 vpn=33
+MAP pid=1 vpn=33 frame=32 quadros=2
+AUDIT n=51 motivo=MAPEAR map=b146cfda0930b69d estado=5f2ff0a4c99b3fbc acumulado=f416d6bf4a2c9dc8 OK
+AUDIT n=52 motivo=APOS_MMU map=b146cfda0930b69d estado=13ab3ed541d8594c acumulado=e61173d42e1241d6 OK
+PHYSICAL pid=1 vpn=33 pa=131072
+ACCESS n=18 chegada=0 execucao=0 pid=1 va=212992 VPN=35 Offset=0 op=W
+FADING mmu=35 pid=1 vpn=10 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=53 motivo=APOS_MMU_COM_FADING map=b146cfda0930b69d estado=13ab3ed541d8594c acumulado=d1508d5121f44eed OK
+PAGE_FAULT pid=1 vpn=35
+MAP pid=1 vpn=35 frame=34 quadros=2
+AUDIT n=54 motivo=MAPEAR map=3f7e4105d9b19a82 estado=eaac7cee7ad48ab3 acumulado=82b415c9ea52fb44 OK
+AUDIT n=55 motivo=APOS_MMU map=3f7e4105d9b19a82 estado=8d1f45f032293f23 acumulado=060b62be1b898d00 OK
+PHYSICAL pid=1 vpn=35 pa=139264
+ACCESS n=19 chegada=0 execucao=0 pid=1 va=225280 VPN=37 Offset=0 op=W
+AUDIT n=56 motivo=APOS_MMU map=3f7e4105d9b19a82 estado=8d1f45f032293f23 acumulado=2419aeb18cae5073 OK
+PAGE_FAULT pid=1 vpn=37
+MAP pid=1 vpn=37 frame=36 quadros=2
+AUDIT n=57 motivo=MAPEAR map=7ac418725c0d114b estado=64ef313e0e259c0a acumulado=41b6af19bee4a1cb OK
+AUDIT n=58 motivo=APOS_MMU map=7ac418725c0d114b estado=2b897a4aec536b9a acumulado=2ecc5fd01b988e90 OK
+PHYSICAL pid=1 vpn=37 pa=147456
+ACCESS n=20 chegada=0 execucao=0 pid=1 va=237568 VPN=39 Offset=0 op=W
+AUDIT n=59 motivo=APOS_MMU map=7ac418725c0d114b estado=2b897a4aec536b9a acumulado=14943fa1735d7056 OK
+PAGE_FAULT pid=1 vpn=39
+MAP pid=1 vpn=39 frame=38 quadros=2
+AUDIT n=60 motivo=MAPEAR map=c682ea3f1f74d0b0 estado=8b8c8a3945519181 acumulado=029ea5bae6daa52e OK
+FADING mmu=40 pid=1 vpn=30 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=61 motivo=APOS_MMU_COM_FADING map=c682ea3f1f74d0b0 estado=da2235375a5dd5f1 acumulado=f89503db6b8c2877 OK
+PHYSICAL pid=1 vpn=39 pa=155648
+RAM t=0; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+032768 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+065536 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+098304 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+131072 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+163840 [................................]
+196608 [................................]
+229376 [................................]
+FRAG uteis=163840 desperdicio=0 alocados=163840 RAM=0.0000% alocada=0.0000% (U parcial arredondado somente no desenho)
+ACCESS n=21 chegada=0 execucao=0 pid=1 va=249856 VPN=41 Offset=0 op=W
+AUDIT n=62 motivo=APOS_MMU map=c682ea3f1f74d0b0 estado=3b351c2d960bceb0 acumulado=754bec0258d1aa4d OK
+PAGE_FAULT pid=1 vpn=41
+MAP pid=1 vpn=41 frame=40 quadros=2
+AUDIT n=63 motivo=MAPEAR map=2e1fce960fbc28ad estado=759129be5ef4118d acumulado=d24badfebd596f4b OK
+AUDIT n=64 motivo=APOS_MMU map=2e1fce960fbc28ad estado=07814afa35705dfd acumulado=4891216fb2ddcfc6 OK
+PHYSICAL pid=1 vpn=41 pa=163840
+ACCESS n=22 chegada=0 execucao=0 pid=1 va=262144 VPN=43 Offset=0 op=W
+AUDIT n=65 motivo=APOS_MMU map=2e1fce960fbc28ad estado=07814afa35705dfd acumulado=fc234a77e8f0e48a OK
+PAGE_FAULT pid=1 vpn=43
+MAP pid=1 vpn=43 frame=42 quadros=2
+AUDIT n=66 motivo=MAPEAR map=ff5eebe39f83e80a estado=1f1296a936b73f5a acumulado=891395ddf203d57d OK
+AUDIT n=67 motivo=APOS_MMU map=ff5eebe39f83e80a estado=4693cec89ccb96ea acumulado=3e001bcf732a8647 OK
+PHYSICAL pid=1 vpn=43 pa=172032
+ACCESS n=23 chegada=0 execucao=0 pid=1 va=274432 VPN=45 Offset=0 op=W
+FADING mmu=45 pid=1 vpn=78 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=68 motivo=APOS_MMU_COM_FADING map=ff5eebe39f83e80a estado=4693cec89ccb96ea acumulado=e4197da1957579d6 OK
+PAGE_FAULT pid=1 vpn=45
+MAP pid=1 vpn=45 frame=44 quadros=2
+AUDIT n=69 motivo=MAPEAR map=16eacc2c9a54631b estado=c67831bebebb109b acumulado=5de3e806031fa713 OK
+AUDIT n=70 motivo=APOS_MMU map=16eacc2c9a54631b estado=fd824ce0e1e3ab0b acumulado=7739ee2ff68d611d OK
+PHYSICAL pid=1 vpn=45 pa=180224
+ACCESS n=24 chegada=0 execucao=0 pid=1 va=286720 VPN=47 Offset=0 op=W
+AUDIT n=71 motivo=APOS_MMU map=16eacc2c9a54631b estado=fd824ce0e1e3ab0b acumulado=4f391c46963e1a7e OK
+PAGE_FAULT pid=1 vpn=47
+MAP pid=1 vpn=47 frame=46 quadros=2
+AUDIT n=72 motivo=MAPEAR map=11ae251b7b80e1f8 estado=64d41347df5ad468 acumulado=cad6dea4f29f63bd OK
+AUDIT n=73 motivo=APOS_MMU map=11ae251b7b80e1f8 estado=a21cc92706c45bf8 acumulado=0ccf2e70046e6c83 OK
+PHYSICAL pid=1 vpn=47 pa=188416
+ACCESS n=25 chegada=0 execucao=0 pid=1 va=299008 VPN=49 Offset=0 op=W
+AUDIT n=74 motivo=APOS_MMU map=11ae251b7b80e1f8 estado=a21cc92706c45bf8 acumulado=00811f5a280b48fe OK
+PAGE_FAULT pid=1 vpn=49
+MAP pid=1 vpn=49 frame=48 quadros=2
+AUDIT n=75 motivo=MAPEAR map=4959fa382d82a12d estado=895e8024c0b7d18d acumulado=68724e2eebaf6046 OK
+FADING mmu=50 pid=1 vpn=64 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=76 motivo=APOS_MMU_COM_FADING map=4959fa382d82a12d estado=d48525d82538d5fd acumulado=1cedbf99cdb14189 OK
+PHYSICAL pid=1 vpn=49 pa=196608
+ACCESS n=26 chegada=0 execucao=0 pid=1 va=311296 VPN=51 Offset=0 op=W
+AUDIT n=77 motivo=APOS_MMU map=4959fa382d82a12d estado=47761a61b18cdddc acumulado=836982b8308d106b OK
+PAGE_FAULT pid=1 vpn=51
+MAP pid=1 vpn=51 frame=50 quadros=2
+AUDIT n=78 motivo=MAPEAR map=d918fbb14a52cc62 estado=da6395c90d706a93 acumulado=f424947baed26bfc OK
+AUDIT n=79 motivo=APOS_MMU map=d918fbb14a52cc62 estado=bdac54c9a2d3a503 acumulado=662850a61d0db1da OK
+PHYSICAL pid=1 vpn=51 pa=204800
+ACCESS n=27 chegada=0 execucao=0 pid=1 va=323584 VPN=53 Offset=0 op=W
+AUDIT n=80 motivo=APOS_MMU map=d918fbb14a52cc62 estado=bdac54c9a2d3a503 acumulado=effada05bf9c935b OK
+PAGE_FAULT pid=1 vpn=53
+MAP pid=1 vpn=53 frame=52 quadros=2
+AUDIT n=81 motivo=MAPEAR map=bb85afb5676341fb estado=61fd719628323a1a acumulado=b1cbb2897468b6b8 OK
+AUDIT n=82 motivo=APOS_MMU map=bb85afb5676341fb estado=0c54e0817e339daa acumulado=71eb4aea9726d48c OK
+PHYSICAL pid=1 vpn=53 pa=212992
+ACCESS n=28 chegada=0 execucao=0 pid=1 va=335872 VPN=55 Offset=0 op=W
+FADING mmu=55 pid=1 vpn=77 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=83 motivo=APOS_MMU_COM_FADING map=bb85afb5676341fb estado=0c54e0817e339daa acumulado=7b8c1f968102a941 OK
+PAGE_FAULT pid=1 vpn=55
+MAP pid=1 vpn=55 frame=54 quadros=2
+AUDIT n=84 motivo=MAPEAR map=6335a08d27a44c70 estado=0f0b7ad3c1951c81 acumulado=221d9bc2237bcd09 OK
+AUDIT n=85 motivo=APOS_MMU map=6335a08d27a44c70 estado=b881e9945c5170f1 acumulado=47b2759e818be8e0 OK
+PHYSICAL pid=1 vpn=55 pa=221184
+ACCESS n=29 chegada=0 execucao=0 pid=1 va=348160 VPN=57 Offset=0 op=W
+AUDIT n=86 motivo=APOS_MMU map=6335a08d27a44c70 estado=b881e9945c5170f1 acumulado=53462c277c50296a OK
+PAGE_FAULT pid=1 vpn=57
+MAP pid=1 vpn=57 frame=56 quadros=2
+AUDIT n=87 motivo=MAPEAR map=9e3e258c082d577d estado=9fac287bc059e47c acumulado=957f4adf2394147b OK
+AUDIT n=88 motivo=APOS_MMU map=9e3e258c082d577d estado=d5c0da0bd2d3d80c acumulado=c4715b56c0c37f65 OK
+PHYSICAL pid=1 vpn=57 pa=229376
+ACCESS n=30 chegada=0 execucao=0 pid=1 va=360448 VPN=59 Offset=0 op=W
+AUDIT n=89 motivo=APOS_MMU map=9e3e258c082d577d estado=d5c0da0bd2d3d80c acumulado=e850f2cb0f96ea2a OK
+PAGE_FAULT pid=1 vpn=59
+MAP pid=1 vpn=59 frame=58 quadros=2
+AUDIT n=90 motivo=MAPEAR map=6e86cf06145507ca estado=2ba58b8e200eb99b acumulado=3631e900ac45ffe9 OK
+FADING mmu=60 pid=1 vpn=85 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=91 motivo=APOS_MMU_COM_FADING map=6e86cf06145507ca estado=1feb85ec4548da0b acumulado=0ee43b98d2df4a47 OK
+PHYSICAL pid=1 vpn=59 pa=237568
+RAM t=0; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+032768 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+065536 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+098304 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+131072 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+163840 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+196608 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+229376 [UUUUUUUUUUUUUUUU................]
+FRAG uteis=245760 desperdicio=0 alocados=245760 RAM=0.0000% alocada=0.0000% (U parcial arredondado somente no desenho)
+ACCESS n=31 chegada=0 execucao=0 pid=1 va=372736 VPN=61 Offset=0 op=W
+AUDIT n=92 motivo=APOS_MMU map=6e86cf06145507ca estado=048348025f1c0eea acumulado=f193448ccd473e3e OK
+PAGE_FAULT pid=1 vpn=61
+MAP pid=1 vpn=61 frame=60 quadros=2
+AUDIT n=93 motivo=MAPEAR map=b128e603db092bcb estado=39159ccfcad4e5cb acumulado=8b0060408710c003 OK
+AUDIT n=94 motivo=APOS_MMU map=b128e603db092bcb estado=60e06a46231bd43b acumulado=07377dd4fed214a5 OK
+PHYSICAL pid=1 vpn=61 pa=245760
+ACCESS n=32 chegada=0 execucao=0 pid=1 va=385024 VPN=63 Offset=0 op=W
+AUDIT n=95 motivo=APOS_MMU map=b128e603db092bcb estado=60e06a46231bd43b acumulado=949e5ea78e9652de OK
+PAGE_FAULT pid=1 vpn=63
+MAP pid=1 vpn=63 frame=62 quadros=2
+AUDIT n=96 motivo=MAPEAR map=031aab4a424637d8 estado=64d2df4de39531a8 acumulado=4e6b519a1f9356cf OK
+AUDIT n=97 motivo=APOS_MMU map=031aab4a424637d8 estado=8233f7a8bd668738 acumulado=f16a473fde35eb23 OK
+PHYSICAL pid=1 vpn=63 pa=253952
+ACCESS n=33 chegada=200 execucao=200 pid=1 va=397312 VPN=65 Offset=0 op=R
+FADING mmu=65 pid=1 vpn=77 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=98 motivo=APOS_MMU_COM_FADING map=031aab4a424637d8 estado=8233f7a8bd668738 acumulado=4e2b36690c15d6d4 OK
+PAGE_FAULT pid=1 vpn=65
+PAGE_OUT pid=1 vpn=1 temp=37.0
+AUDIT n=99 motivo=PAGE_OUT map=031aab4a424637d8 estado=66f0941493267169 acumulado=5b47e23b569b766a OK
+AUDIT n=100 motivo=DESMAPEAR map=04e67d5cf99b07f5 estado=fb48282dd0358244 acumulado=77cb05719395abc3 OK
+MAP pid=1 vpn=65 frame=0 quadros=2
+AUDIT n=101 motivo=MAPEAR map=53887448f74cd3d8 estado=f806a15f05ff9809 acumulado=27b07fdecd63bd5f OK
+AUDIT n=102 motivo=APOS_MMU map=53887448f74cd3d8 estado=cc8265086824b3c0 acumulado=10d0e209f767fd78 OK
+PHYSICAL pid=1 vpn=65 pa=0
+ACCESS n=34 chegada=200 execucao=200 pid=1 va=409600 VPN=67 Offset=0 op=R
+AUDIT n=103 motivo=APOS_MMU map=53887448f74cd3d8 estado=cc8265086824b3c0 acumulado=280a762fe4b192ca OK
+PAGE_FAULT pid=1 vpn=67
+PAGE_OUT pid=1 vpn=3 temp=52.0
+AUDIT n=104 motivo=PAGE_OUT map=53887448f74cd3d8 estado=dbc753ff3edcea91 acumulado=54523eaea1fccee3 OK
+AUDIT n=105 motivo=DESMAPEAR map=1a98da3b601e2997 estado=6ce33ff22db1e94e acumulado=228251b9db9746a3 OK
+MAP pid=1 vpn=67 frame=2 quadros=2
+AUDIT n=106 motivo=MAPEAR map=d91cb1a611ae39d8 estado=b0d7eed967f44211 acumulado=d7f618bcd0412de9 OK
+AUDIT n=107 motivo=APOS_MMU map=d91cb1a611ae39d8 estado=2c231f5fbc2fd468 acumulado=34bf310cb259902a OK
+PHYSICAL pid=1 vpn=67 pa=8192
+ACCESS n=35 chegada=200 execucao=200 pid=1 va=421888 VPN=69 Offset=0 op=R
+AUDIT n=108 motivo=APOS_MMU map=d91cb1a611ae39d8 estado=2c231f5fbc2fd468 acumulado=5555489d88a193d6 OK
+PAGE_FAULT pid=1 vpn=69
+PAGE_OUT pid=1 vpn=5 temp=67.0
+AUDIT n=109 motivo=PAGE_OUT map=d91cb1a611ae39d8 estado=20089f03a911edb9 acumulado=643ccd098c2bd4d3 OK
+AUDIT n=110 motivo=DESMAPEAR map=f35f93d6940da1b1 estado=c3556e01355d11f0 acumulado=ce8c3b74470e9ef7 OK
+MAP pid=1 vpn=69 frame=4 quadros=2
+AUDIT n=111 motivo=MAPEAR map=69e64909b08702d8 estado=eb6bf462167ea6b9 acumulado=90856c57efe09d9e OK
+FADING mmu=70 pid=1 vpn=124 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=112 motivo=APOS_MMU_COM_FADING map=69e64909b08702d8 estado=8dc1b6407d86c430 acumulado=c00a2c389b937c64 OK
+PHYSICAL pid=1 vpn=69 pa=16384
+ACCESS n=36 chegada=200 execucao=200 pid=1 va=434176 VPN=71 Offset=0 op=R
+AUDIT n=113 motivo=APOS_MMU map=69e64909b08702d8 estado=f13232ed09e5e251 acumulado=fc12a2bf93289667 OK
+PAGE_FAULT pid=1 vpn=71
+PAGE_OUT pid=1 vpn=7 temp=82.0
+AUDIT n=114 motivo=PAGE_OUT map=69e64909b08702d8 estado=baaa0a86b5355360 acumulado=5fdaf8058904ffe3 OK
+AUDIT n=115 motivo=DESMAPEAR map=9afcb133fcbc1153 estado=843f6870de13ae8b acumulado=e26e02803e8e1e46 OK
+MAP pid=1 vpn=71 frame=6 quadros=2
+AUDIT n=116 motivo=MAPEAR map=72432f428ca2ccd8 estado=fbb694569c1845d0 acumulado=fc502c86b30f830e OK
+AUDIT n=117 motivo=APOS_MMU map=72432f428ca2ccd8 estado=145c812ba9b08729 acumulado=344775ab22d07247 OK
+PHYSICAL pid=1 vpn=71 pa=24576
+ACCESS n=37 chegada=200 execucao=200 pid=1 va=446464 VPN=73 Offset=0 op=R
+AUDIT n=118 motivo=APOS_MMU map=72432f428ca2ccd8 estado=145c812ba9b08729 acumulado=2a26ba4a984c4571 OK
+PAGE_FAULT pid=1 vpn=73
+PAGE_OUT pid=1 vpn=9 temp=97.0
+AUDIT n=119 motivo=PAGE_OUT map=72432f428ca2ccd8 estado=0e74585d9ccc8338 acumulado=5c8b58b532fe248a OK
+AUDIT n=120 motivo=DESMAPEAR map=35cdb63c9cba596d estado=7b90a3b7c5b6b76d acumulado=505f2d670a4c5c42 OK
+MAP pid=1 vpn=73 frame=8 quadros=2
+AUDIT n=121 motivo=MAPEAR map=ac1275ea7b1f6bd8 estado=9503b8b3dc7de5f8 acumulado=5b3159d954c9230b OK
+AUDIT n=122 motivo=APOS_MMU map=ac1275ea7b1f6bd8 estado=fc504d9de75ae7b1 acumulado=1f62dc56649dd485 OK
+PHYSICAL pid=1 vpn=73 pa=32768
+ACCESS n=38 chegada=200 execucao=200 pid=1 va=458752 VPN=75 Offset=0 op=R
+FADING mmu=75 pid=1 vpn=77 presente=0 R_antes=0 R_retorno=0 efeito=sorteio_ausente
+AUDIT n=123 motivo=APOS_MMU_COM_FADING map=ac1275ea7b1f6bd8 estado=fc504d9de75ae7b1 acumulado=1b3bb4bda815e85e OK
+PAGE_FAULT pid=1 vpn=75
+PAGE_OUT pid=1 vpn=11 temp=112.0
+AUDIT n=124 motivo=PAGE_OUT map=ac1275ea7b1f6bd8 estado=2bfd6bb55e3575a0 acumulado=f91efbb568fc1b1a OK
+AUDIT n=125 motivo=DESMAPEAR map=02a858c5fdca561f estado=8dca0142b543ad77 acumulado=c8bb424f47652c68 OK
+MAP pid=1 vpn=75 frame=10 quadros=2
+AUDIT n=126 motivo=MAPEAR map=3e96ed1ac187bbd8 estado=c1a56d3ee1daf640 acumulado=2026c7d1fb65483e OK
+AUDIT n=127 motivo=APOS_MMU map=3e96ed1ac187bbd8 estado=786f2b8b35e213d9 acumulado=ffa0fd7aa83b51d5 OK
+PHYSICAL pid=1 vpn=75 pa=40960
+ACCESS n=39 chegada=200 execucao=200 pid=1 va=471040 VPN=77 Offset=0 op=R
+AUDIT n=128 motivo=APOS_MMU map=3e96ed1ac187bbd8 estado=786f2b8b35e213d9 acumulado=def898ce29305261 OK
+PAGE_FAULT pid=1 vpn=77
+PAGE_OUT pid=1 vpn=13 temp=127.0
+AUDIT n=129 motivo=PAGE_OUT map=3e96ed1ac187bbd8 estado=389ed2a1ec88e228 acumulado=b90299fba76c1d1c OK
+AUDIT n=130 motivo=DESMAPEAR map=c494a019e8aa7c29 estado=e10d7dcf512484b9 acumulado=00d1f5847b400ed8 OK
+MAP pid=1 vpn=77 frame=12 quadros=2
+AUDIT n=131 motivo=MAPEAR map=6e9b98823af7efd8 estado=93661516647abec8 acumulado=ba0e76c450cbdeb8 OK
+AUDIT n=132 motivo=APOS_MMU map=6e9b98823af7efd8 estado=f2b5bd6d99aeddc1 acumulado=916d9aca382c810f OK
+PHYSICAL pid=1 vpn=77 pa=49152
+ACCESS n=40 chegada=200 execucao=200 pid=1 va=483328 VPN=79 Offset=0 op=R
+AUDIT n=133 motivo=APOS_MMU map=6e9b98823af7efd8 estado=f2b5bd6d99aeddc1 acumulado=c99b8d525f14e815 OK
+PAGE_FAULT pid=1 vpn=79
+PAGE_OUT pid=1 vpn=15 temp=142.0
+AUDIT n=134 motivo=PAGE_OUT map=6e9b98823af7efd8 estado=85c7f5c86eafaa90 acumulado=67e209e07e43dcb8 OK
+AUDIT n=135 motivo=DESMAPEAR map=a2afd1bf9eef49db estado=a292018ff0bc8493 acumulado=5d8dd22afe1c8c07 OK
+MAP pid=1 vpn=79 frame=14 quadros=2
+AUDIT n=136 motivo=MAPEAR map=93b9f3b8576c1ed8 estado=9288430ed910aae0 acumulado=2f3b1780a334d381 OK
+FADING mmu=80 pid=1 vpn=67 presente=1 R_antes=0 R_retorno=0 efeito=ja_era_zero
+AUDIT n=137 motivo=APOS_MMU_COM_FADING map=93b9f3b8576c1ed8 estado=9ca71942fc4483b9 acumulado=e15e0f992ee189ca OK
+PHYSICAL pid=1 vpn=79 pa=57344
+RAM t=200; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+032768 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+065536 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+098304 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+131072 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+163840 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+196608 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+229376 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+FRAG uteis=262144 desperdicio=0 alocados=262144 RAM=0.0000% alocada=0.0000% (U parcial arredondado somente no desenho)
+ACCESS n=41 chegada=200 execucao=200 pid=1 va=495616 VPN=81 Offset=0 op=R
+AUDIT n=138 motivo=APOS_MMU map=93b9f3b8576c1ed8 estado=4093c67619c06cb8 acumulado=53002bd657d2ccba OK
+PAGE_FAULT pid=1 vpn=81
+PAGE_OUT pid=1 vpn=17 temp=157.0
+AUDIT n=139 motivo=PAGE_OUT map=93b9f3b8576c1ed8 estado=efbf376a8c9cf789 acumulado=a54c34b9a70f07db OK
+AUDIT n=140 motivo=DESMAPEAR map=03c92fad0116b2e5 estado=8acc77f86a429954 acumulado=97e6b41200ae6a9d OK
+MAP pid=1 vpn=81 frame=16 quadros=2
+AUDIT n=141 motivo=MAPEAR map=44d6c369ae2f6bd8 estado=e83fcebaf7834329 acumulado=1e48f7705f23b89a OK
+AUDIT n=142 motivo=APOS_MMU map=44d6c369ae2f6bd8 estado=e17ebbffb6a0de60 acumulado=e938d38ab46569b2 OK
+PHYSICAL pid=1 vpn=81 pa=65536
+ACCESS n=42 chegada=200 execucao=200 pid=1 va=507904 VPN=83 Offset=0 op=R
+AUDIT n=143 motivo=APOS_MMU map=44d6c369ae2f6bd8 estado=e17ebbffb6a0de60 acumulado=c07ebe7ddefb295b OK
+PAGE_FAULT pid=1 vpn=83
+PAGE_OUT pid=1 vpn=19 temp=172.0
+AUDIT n=144 motivo=PAGE_OUT map=44d6c369ae2f6bd8 estado=d9ff0605781963b1 acumulado=3cb85d1e9e524791 OK
+AUDIT n=145 motivo=DESMAPEAR map=4be098251aceb087 estado=1e1698bc1b58199e acumulado=f9529d3f4af9f297 OK
+MAP pid=1 vpn=83 frame=18 quadros=2
+AUDIT n=146 motivo=MAPEAR map=6a98ee0ed41fbdd8 estado=b119ece39a17d871 acumulado=450d1d1eca2a5183 OK
+AUDIT n=147 motivo=APOS_MMU map=6a98ee0ed41fbdd8 estado=c88b47f1fe7e8348 acumulado=11f501f895fb8a66 OK
+PHYSICAL pid=1 vpn=83 pa=73728
+RAM t=200; cada caractere=1KiB: U=util F=fragmento .=livre
+000000 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+032768 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+065536 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+098304 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+131072 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+163840 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+196608 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+229376 [UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU]
+FRAG uteis=262144 desperdicio=0 alocados=262144 RAM=0.0000% alocada=0.0000% (U parcial arredondado somente no desenho)
+
+RESUMO politica=aging_baseline_sem_controle_termico
+Acessos do trace: 42
+Chamadas MMU (inclui retries): 84
+Page Faults globais: 42
+PID 1: acessos=42 faults=42
+Temperatura maxima Swap: 172.0 C
+Ciclos E/S: 4793492000
+Ciclos CPU totais: 4793492084
+Page Outs: 10
+Espera termica: 0 ms
+Fragmentacao media / RAM: 0.000000%
